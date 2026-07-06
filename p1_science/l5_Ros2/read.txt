@@ -1,0 +1,89 @@
+#--- intro
+
+--- install
+
+ros2 pkg
+sudo apt update
+sudo appt install ros-jazzy-turtlesim
+ros2 pkg list | grep turtlesim
+ros2 pkg prefix turtlesim
+ros2 pkg executalbes turtlesim
+
+#--- ros2 topics
+
+ros2 topic list
+
+ros2 ropic echo /chatter
+
+ros2 topics hz /chatter
+
+ros2 topic pub /chatter std-msgs/msg/String "data: 'Hello Ros2'"
+
+
+#--- ros2 services
+ros2 run demo_nodes_cpp add_two_ints_server
+
+ros2 servide list
+
+ros2 interface -help
+
+ros2 interface show example_interfaces/srv/AddTwoInts
+
+ros2 service call /add_two+ints example_interfaces/srv/AddTwoInts
+
+
+#--- ros2 actions
+ros2 run action_tutorials_cpp fibonaci_action_server
+
+ros2 actions list
+ros2 action info /fibonaci_action_server
+
+ros2 action type /fibonaci
+
+ros2 interface show action tutorials interfaces/actions/Fibonaci
+
+ros2 action sed_goal /fibonaci
+
+#--- architeture of ros2 application
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

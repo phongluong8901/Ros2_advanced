@@ -1,0 +1,185 @@
+#--- install Ubuntu
+
+#--- linux filesystem
+root 
+home
+
+
+#--- LAB
+PWD
+LS
+ls -l
+ls -a
+mkdir -p a/b/c
+touch filename
+rm filenamerm -r new_folder/
+
+#---packages manager
+cd download
+sudo dpkg - i google-chrome-stable_current_amd64.deb
+sudo apt install vlc
+sudo apt upgrade
+
+apt-cache search python3
+sudo apt remove vlc
+
+apt-cache search boot-repair
+
+#--- edit a text filename
+touch filename.txt
+sudo apt install vim
+
+sudo apt ins tall nano
+
+sudo apt install gedit
+
+echo "helo from echo" > filename.txt
+cat filename.txt
+head filename.txt
+
+
+#--- permission and users
+
+file myfile.txt
+mkdir new_foler 
+ls -l
+
+chmod u+x myfile
+ls -l
+chmod o-r myfile.txt
+ls -l
+
+chmod u+r myfile.txt
+cat myfile.txt
+
+chmod 664 myfile.txt
+chmod 000 mydie.txt
+
+sudo adduser alice
+groups alice
+groups robot
+
+#--- networking
+ifconfig
+ls
+
+ip a
+
+sudo netplan try
+
+nmap -sP 192.168.1.0/24
+
+ping
+
+#--- remote connection
+
+sudo install openssh-client
+sudo systemtl status ssh
+
+nmap -sP 192.168.1.0/24
+
+ssh robot1@192.168.1.94
+pwd 
+exit
+
+ssh -l robot 1 192.168.1.94
+
+touch new_remote_file.txt
+echo "alo remote" > new_remote_file.txt
+cat new_remote_file.txt
+
+ssh-keygen
+
+ssh-copy-id robot1@robot1
+
+scp robot1@robot1:/home/robot1/remote.txt
+
+sudo apt install filezilla
+
+#--- environment variables
+
+echo $HOME
+export MY_VAR=Hello
+echo $MY_VAR
+
+unset MY_VAR
+echo $MY_VAR
+
+#--- Scripting and automation
+
+gedit my_script.sh
+ls
+chmod +x myscript.sh
+mv my_script.sh backup.sh
+mkdir -p data/first
+mkdir -p data/second
+
+touch data/my_data.txt
+ls data/
+
+./backup.sh
+
+crontab -e
+
+df -h /
+df -h / | grep -v filesyntem
+sudo systemctl start ssh
+sudo systemctl start ssh.socket
+
+sudo gedit /etc/systemd/system/logs/service
+
+---
+echo $SHELL
+sudo apt install zsh
+
+which chsh
+chsh -s /usr/bin/zsh
+
+sudo apt install fish
+which fish
+chsh -s /usr/bin/fish
+
+sudp apt install zsh
+
+grep MY_VAR .bashrc
+
+ps
+
+pas aux | grep logs
+
+---
+sudo apt install terminator
+
+nano .bashrc
+
+source .bashrc
+
+ping robot1
+
+ssh robot1@
+
+ps aux | grep logs
+
+tmux ls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+#--- install docker
+sudo apt install ca-certificates curl
+
+sudo... docker
+
+su do docker run hello-world
+
+#--- docker hub
+hub.docker.com
+
+docker pull python
+docker pull ros
+docker pull ros:humble-ros-base
+docker images
+
+
+#--- started with containers
+docker pull ros
+docker images
+sudo ls /var/lib/docker/
+
+df -h ~
+docker images
+docker rmi ros:jazzy
+docker rmi ros:jazzy --force
+
+docker run python
+docker ps -a
+docker run --rm --name my_first_container -it python bash
+
+#--- volumes and networking
+mkdir work
+docker run --rm --name python_container -v /home.robot/work:/work -it python:latest bash
+ls /work
+ping www.google.com
+ip addr
+apt update
+
+#--- creating Docker images
+doker run --network host --name rps -it ros bash
+apt install iproute2 ipiltil-ping -y
+
+docker ps -a
+docker images
+
+#--- create images with dockerfiles
+mkdir hello-docker
+touch Dockerfile
+gedit Dockerfile &
+
+docker build -t hello-python .
+docker images
+
+touch Docjerfile_slim
+gedit Dockerfile_slim
+docker build -f Docjerfile_slim
+
+#--- create advanced images
+mkdir devbox && cd devbox
+gedit Dockerfile
+gedit requirements.txt
+
+docker build -t devbox .
+
+#--- Docker compose
+
+gedit docker-compose.yaml &
+
+docker exec -it dev-container bash
+
+---
+cp docker-compose.yaml docker-compose-build.yaml
+gedit docker-compose-build.yaml
+
+#--- user interface in docker
+
+#--- nvidia
+nvidia-smi
+
+sudo service docker restart
+
+nvidia-smi
+docker run --gpus all -it nvidia/cuda:12.9.0-base-ubuntu22.04 bash
+
+
+#--- local registry
+ip addr
+ping 192.168.1.24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

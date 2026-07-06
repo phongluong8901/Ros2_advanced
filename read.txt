@@ -1,0 +1,25 @@
+1. Giải thích chi tiết các khóa học của Antonio Brandi
+Nhóm 1: Khóa bổ trợ nền tảng
+Khóa: Computer Science & Robotics - Learn by Doing! Linux to ROS 2 (15,5 giờ)
+
+Nội dung: Khóa này dạy bộ công cụ cốt lõi cho kỹ sư phần mềm robot bao gồm: Hệ điều hành Linux (Ubuntu), đóng gói môi trường với Docker, quản lý mã nguồn bằng Git, và một chút cơ bản về ROS 2.
+
+Nhóm 2: Chuỗi Xe tự hành (Self-Driving / AGV / AMR) — Đây là combo cốt lõi của ông ấy
+Chuỗi này gồm 3 khóa độc lập nhưng ghép lại thành một con robot hoàn chỉnh:
+
+Khóa: Odometry & Control (29 giờ)
+
+Nội dung: Dạy cách tính toán Odometry (vị trí xe dựa trên tốc độ bánh xe), bộ điều khiển động cơ (Control), và đặc biệt là Sensor Fusion (Bộ lọc Kalman) để kết hợp dữ liệu IMU + Wheel Encoder giúp xe định vị chính xác, không bị sai số khi trượt bánh.
+
+Khóa: Map & Localization (25 giờ)
+
+Nội dung: Tập trung vào mảng SLAM (Simultaneous Localization and Mapping). Dạy cách lấy dữ liệu cảm biến LiDAR để quét tạo bản đồ môi trường (Mapping) và định vị robot trong bản đồ đó (Localization).
+
+Khóa: Plan & Navigation (28,5 giờ)
+
+Nội dung: Tầng tư duy cao nhất của xe tự hành. Dạy cấu hình Nav2 (Navigation 2) để xe tự tìm đường đi tối ưu né vật cản tĩnh/động (Path Planning) và dùng Behavior Tree để robot tự đưa ra quyết định thông minh (ví dụ: Gặp vật cản cố định thì đi vòng, gặp người đi qua thì dừng lại đợi).
+
+Nhóm 3: Cánh tay Robot công nghiệp (Manipulators)
+Khóa: Robotics and ROS 2 - Learn by Doing! Manipulators (21,5 giờ)
+
+Nội dung: Lập trình điều khiển cánh tay robot bằng Python và C++. Làm chủ thư viện MoveIt 2 để tính toán động học, quy hoạch quỹ đạo di chuyển cho các khớp và tích hợp điều khiển bằng giọng nói qua Alexa.

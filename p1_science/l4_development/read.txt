@@ -1,0 +1,71 @@
+#--- tools
+git vscode
+
+#--- git terminology
+
+#--- git workflow
+mkdir RoboCmd && cd RoboCmd
+touvh cmd-seq.cpp
+touch CMakeLists.txt
+getdit cmd-seq.cpp
+getdit CMakeLists.txt
+
+git config --global user.name "123"
+
+
+git init
+git add .
+git status
+git commit -m "initial commit"
+
+git push origin master
+
+git clone ...
+
+---
+rm -rf .git
+git status
+
+#--- git branching
+git branch
+git branch -M main
+git branch
+
+git branch -r
+git checkout main
+
+git branch -d master
+
+#--- git rebase
+git diff main origin/main
+
+git rebase
+
+#--- repository document
+
+#--- git actions
+
+#--- work in collaboration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
