@@ -1,0 +1,96 @@
+#--- intro
+
+
+--- create and activate a workspace
+mkdir -p bumperbot_ws/src
+cd bumperbot_ws
+ls
+
+colcon build
+ls
+
+cd src/
+ros2 pkg create --build-type ament_python bumperbot_py_examples
+ros2 pkg create --build-type ament_cmake bumperbot_cpp_examples
+
+cd ..
+colcon build
+ls
+
+
+--- simple publish py
+cd bumperbot_ws/
+colcon build
+
+t2: 
+cd bumperbot_ws/
+.install/setup.bash
+ros2 run bumperbot_py_examples simple_publisher
+
+t3: 
+ros2 topic list
+ros2 topic echo /chatter
+ros2 topic info /chatter --verbose
+ros2 topic hz /chatter
+
+
+--- simple publish c++
+cd bumperbot_ws/
+colcon build
+
+t2:
+cd bumperbot_ws/
+.install/setup.bash
+ros2 run bumperbot_cpp_examples simple_publisher
+
+t3: 
+ros2 topic list
+ros2 topic echo /chatter
+ros2 topic info /chatter --verbose
+ros2 topic hz /chatter
+
+--- simple subscribe py
+cd bumperbot_ws/
+colcon build
+
+t2:
+cd bumperbot_ws/
+.install/setup.bash
+ros2 run bumperbot_py_examples simple_subscriber
+
+t3:
+ros2 topic list
+ros2 topic echo /chatter
+ros2 topic info /chatter
+ros2 topic pub /chatter std_msgs/msg/String "data: 'Hello ROS 2'"
+
+cd bumperbot_ws/
+.install/setup.bash
+ros2 run bumperbot_py_examples simple_publisher
+ros2 run bumperbot_cpp_examples simple_publisher
+
+
+--- simple subscribe c++
+cd bumperbot_ws/
+colcon build
+
+t2:
+cd bumperbot_ws/
+.install/setup.bash
+ros2 run bumperbot_cpp_examples simple_subscriber
+
+t3:
+ros2 topic list
+ros2 topic echo /chatter
+ros2 topic info /chatter --verbose
+ros2 topic pub /chatter std_msgs/msg/String "data: 'Hello ROS 2'"
+
+cd bumperbot_ws/
+.install/setup.bash
+ros2 run bumperbot_py_examples simple_publisher
+ros2 run bumperbot_cpp_examples simple_publisher
+
+
+
+
+
