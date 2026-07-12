@@ -1,0 +1,55 @@
+#--- locomotions - di chuyen
+
+--- mobile ro bot
+3 wheel
+
+--- friction effects
+
+
+--- Description
+
+--- URDF
+
+--- lab create URDF
+cd bumperbot_ws/src/
+ros2 pkg create --build-type ament_cmake bumperbot_description 
+
+t2:
+.install/setup.bash
+sudo apt-get install ros-humble-urdf-tutorial
+ros2 launch urdf_tutorial display.launch.py model:=/home/ailen/bumperbot_ws/src/bumperbot_description/urdf/bumperbot.urdf.xacro
+
+--- Rviz2
+
+--- parameter
+
+--- lab cli
+ros2 run bumperbot_cpp_examples simple_parameter --ros-args -p simple_int_param:=30
+
+t2:
+ros2 param list
+ros2 param get /simple_paramter simple_int_param
+
+ros2 param set /simple_paramter simple_string_param "Hi Ros2"
+ros2 param
+
+--- lab visualize robot
+cd bumperbot_ws
+
+--- launch files
+ros2 node, ros2 param
+
+--- visualize te robot with launch
+ros2 launch bumperbot_desciption display.launch.py
+
+--- gazebo
+
+--- simulate the robot
+
+--- launch the simulation
+
+
+
+
+
+

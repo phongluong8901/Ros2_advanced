@@ -1,0 +1,70 @@
+Let's start by preparing the components you are going to need for the robot 🤖
+
+Here you can find the list of all the components and their relative quantities you need to purchase / 3D print:
+
+BOM - Bumperbot
+https://docs.google.com/spreadsheets/d/1ZjQArpmpuA3CByzffksmD_ys4ZTuLZcrd2aIfF4JQNU/edit?usp=drive_link
+
+
+
+Here you can find the list of all the STL that you need to 3D print 🖨️
+
+STL 3D Print - Bumperbot
+https://drive.google.com/drive/folders/1aRFsjoXUAH-ZudlRnprNI3Pwkbrb11OP?usp=drive_link
+
+
+Here you can find the schematics showing all the connections among the electronic components 🪫
+
+Electronics - Bumperbot
+https://drive.google.com/drive/folders/1QxgiFhFYE_ojzDlrHaYzS8sePpEcWb2R?usp=drive_link
+
+#--- mechanics and Electronics
+
+--- install ros2 humble on rashberry
+https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
+
+--- arduino
+
+--- publisher node with arduino
+
+--- test publish node 
+
+--- subscriber node 
+
+--- test subscriber
+
+--- DC notors with arduino
+
+--- encoders with arduino
+
+--- lifecycle nodes
+
+--- life cycle CLI
+
+--- ros2 control interface - definition c++
+
+--- rps2 cpmtrol interface - plugin
+
+--- ros2 controler interface - configure
+
+--- robot with arduino
+
+--- ros domain id
+
+--- MPU6050 IMU Driver
+PU6050 là một module cảm biến tích hợp dùng để đo lường quán tính (IMU - Inertial Measurement Unit). Nói một cách đơn giản, nó giống như "cảm biến tiền đình" của robot, giúp robot biết được mình đang nghiêng hay thẳng, đang quay sang trái hay sang phải, và chuyển động nhanh hay chậm.
+
+Đây là một trong những cảm biến kinh điển, cực kỳ phổ biến và rẻ tiền mà bất kỳ ai làm robot tự hành (AGV/AMR), máy bay không người lái (Drone), hay robot cân bằng đều phải dùng tới.
+
+MPU6050 có những gì bên trong?Người ta thường gọi MPU6050 là cảm biến 6 trục (6-DOF) vì nó kết hợp hai loại cảm biến cơ bản bên trong một con chip nhỏ:Cảm biến gia tốc 3 trục (3-Axis Accelerometer):Đo gia tốc tuyến tính dọc theo 3 trục $X, Y, Z$.Nhờ lực hấp dẫn của Trái Đất ($g \approx 9.81 m/s^2$), trục gia tốc này giúp bạn xác định được góc nghiêng hiện tại của robot (góc Roll và Pitch) khi nó đứng yên hoặc chuyển động chậm.Cảm biến con quay hồi chuyển 3 trục (3-Axis Gyroscope):Đo vận tốc góc (tốc độ quay) quanh 3 trục $X, Y, Z$ (đơn vị thường là độ/giây).Khi robot quay, con quay này sẽ phản hồi ngay lập tức xem robot đang quay nhanh thế nào. Bản thân góc quay (như góc Yaw - hướng la bàn) sẽ được tính bằng cách tích phân vận tốc góc này theo thời gian.Cảm biến nhiệt độ tích hợp: Đo nhiệt độ của chip để hỗ trợ bù trừ sai số do nhiệt độ gây ra.
+
+--- assemble the robot
+
+--- launch the complete robot
+
+
+
+
+
+
+

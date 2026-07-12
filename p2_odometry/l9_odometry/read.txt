@@ -1,0 +1,46 @@
+#--- intro
+
+--- local localization challenge
+
+--- whell odometry
+
+--- different inverse kinemetics
+
+--- wheel odometry - position
+
+--- wheel odometry - orientation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

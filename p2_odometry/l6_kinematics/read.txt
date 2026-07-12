@@ -1,0 +1,32 @@
+#--- intro
+
+--- pose for a mobile robot
+
+--- translation vector
+
+--- intro to turtlesim
+
+--- translation vector
+
+--- rotation matrix
+
+--- rotation matrix py, c++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

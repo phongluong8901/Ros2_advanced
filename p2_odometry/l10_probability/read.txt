@@ -1,0 +1,62 @@
+#--- Movivation
+
+--- random variables
+
+--- con ditiona probabily
+
+--- gaussian distribution
+
+--- total probability theorem
+
+--- bayes rule
+
+--- sensor noise
+
+--- adding noise to tobot motion
+
+--- launch noisy controller
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+#--- intro
+
+--- velocity of a mobile robot
+
+--- linear velocity
+
+--- angular velocity
+
+--- velocity in world game
+
+--- diffirent forward kinemetics
+
+
+--- simple spped controller
+
+--- joytick
+
+--- using the diff driver controller
+
+
+
+
+
+
+
+
+
+
