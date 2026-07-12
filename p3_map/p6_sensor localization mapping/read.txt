@@ -1,0 +1,61 @@
+#--- Map
+
+--- robot percevie 
+
+--- self-driving robot
+
+--- sensors-sonar
+
+--- 2D sensors - LinDar
+
+
+--- 3D sensors
+
+
+--- speed and separation monitoring
+
+--- twist_mux
+
+--- twist relay
+
+--- configure teist_mux
+
+--- use twist_mux
+
+--- safety stop
+
+--- ros2 actions
+
+--- create an action server
+
+--- create an action client
+
+--- speed and separation monitoring
+
+--- display markers in Rviz
+
+--- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

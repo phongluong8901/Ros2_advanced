@@ -1,0 +1,35 @@
+#---  mapping with know poes
+
+--- occupancy grid mapping
+
+--- occupancy grid publisher
+
+--- understand laserScan mesage
+
+--- draw obstacles on occipancu grid
+
+--- laser model
+
+--- probabilistic occupancy grid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

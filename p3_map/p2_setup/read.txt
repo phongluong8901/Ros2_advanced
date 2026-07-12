@@ -1,0 +1,19 @@
+#--- WSL
+
+#--- Dual Boot
+
+#--- Virtual machine
+
+https://robotics.stackexchange.com/
+
+
+https://wiki.ros.org/
+
+
+
+
+
+
+
+
+

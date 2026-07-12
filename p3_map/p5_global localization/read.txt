@@ -1,0 +1,51 @@
+#--- localization
+
+--- convention for localization
+
+--- gazebo world
+
+--- give an house to the robot
+
+--- local and global localozation
+
+--- local localization
+
+--- global localization
+
+--- wheel odometry errors
+
+--- laser odometry errors
+
+--- real purpose of global localization
+
+--- error propagation
+
+--- odometry motion model
+
+--- odometry motion model with noise
+
+--- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

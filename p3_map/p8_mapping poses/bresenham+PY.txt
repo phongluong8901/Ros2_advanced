@@ -1,0 +1,35 @@
+def bresenham(start: Pose, end: Pose):
+    line = []
+    dx = end.x - start.x
+    dy = end.y - start.y
+    xsign = 1 if dx > 0 else -1
+    ysign = 1 if dy > 0 else -1
+    dx = abs(dx)
+    dy = abs(dy)
+
+    if dx > dy:
+        xx = xsign
+        xy = 0
+        yx = 0
+        yy = ysign
+    else:
+        tmp = dx
+        dx = dy
+        dy = tmp
+        xx = 0
+        xy = ysign
+        yx = xsign
+        yy = 0
+
+    D = 2 * dy - dx
+    y = 0
+
+    for i in range(dx + 1):
+        line.append(Pose(start.x + i * xx + y * yx, start.y + i * xy + y * yy))
+        if D >= 0:
+            y += 1
+            D -= 2 * dx
+
+        D += 2 * dy
+
+    return line

@@ -1,0 +1,49 @@
+Let's start by preparing the components you are going to need for the robot 🤖
+
+Here you can find the list of all the components and their relative quantities you need to purchase / 3D print:
+
+BOM - Bumperbot
+https://docs.google.com/spreadsheets/d/1ZjQArpmpuA3CByzffksmD_ys4ZTuLZcrd2aIfF4JQNU/edit?usp=drive_link
+
+
+Here you can find the list of all the STL that you need to 3D print 🖨️
+
+STL 3D Print - Bumperbot
+https://drive.google.com/drive/folders/1aRFsjoXUAH-ZudlRnprNI3Pwkbrb11OP?usp=drive_link
+
+
+Here you can find the schematics showing all the connections among the electronic components 🪫
+
+Electronics - Bumperbot
+https://drive.google.com/drive/folders/1QxgiFhFYE_ojzDlrHaYzS8sePpEcWb2R
+
+
+#----------
+
+--- mechanics and Electronics
+
+--- ros2 drives
+
+--- configure development environment in r PI
+https://www.raspberrypi.com/software/
+
+--- Ros2 install in RPi
+
+--- Laser Scanner driver
+
+--- assemble
+
+--- udevrules
+
+--- Rplidar driver
+
+--- real robot
+
+--- launch all function
+
+
+
+
+
+
+

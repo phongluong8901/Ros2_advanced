@@ -1,0 +1,52 @@
+#--- map representation
+
+--- topologies máp
+
+--- occipancygrid
+
+--- octomap and voxel grids
+https://en.wikipedia.org/wiki/Octree
+https://octomap.github.io/
+
+--- introduction to Nav2
+
+--- ros2 lifcycle nodes
+
+--- create a lifecycle
+
+--- ros2 lifecycle CLI
+
+000 nac2 map_server
+
+--- quality of service
+
+--- multi Qos publisher
+
+--- Nav2 lifecycle_manager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
