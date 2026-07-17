@@ -1,0 +1,34 @@
+Here you will find all the courses that we are going to develop during the course and where I’ll fix all the bugs that you will kindly report to me (and where I’ll add some new ones 🙂)
+
+Github
+https://github.com/AntoBrandi/Robotics-and-ROS-2-Learn-by-Doing-Manipulators/tree/gz-classic
+
+
+Here you will find the CAD and STL models of the robot components:
+
+STL of the Robot
+https://drive.google.com/drive/folders/1oXqcHm-fbpo0hpiBJAOFJbZgMTGw6nd_?usp=sharing
+CAD of the Robot
+https://drive.google.com/drive/folders/1UWe0lDRsSnnI6iyeRORPfP4omIeSuNoO
+
+
+Here you can find the STL files to feed your 3D Printer 🖨️
+
+STL 3D Printer
+https://drive.google.com/drive/folders/1ApMKBcd3TP1WdTV-iZeWcUgRN2qXUJoj
+
+
+Here you will find the PDF with the slides of the lessons and the notes that you can use during the quiz😈:
+
+Lesson's Notes
+https://drive.google.com/drive/folders/1y_cUt31KcGkghQHm0ZUqCsTgCaSy_opa
+Lesson's Slides
+https://drive.google.com/drive/folders/1rHYLjwRwI_0SuVyTWn7q0MEbptOCp87q
+
+
+Here you will find the list of components needed to assemble the robot, the sensors and the electronic parts. You can skip this if you don't want to build the robot and just want to use the simulated one.
+
+BOM to build the Robot
+https://docs.google.com/spreadsheets/d/1CviqYqj3aqvjTXP8Nirbr8HidmRNkj0IoDGl7H_LYjA/edit?usp=sharing
+Electronics and Schematic
+https://drive.google.com/drive/folders/1w_3Db5amgPz3GZx4F96QcJ1xxkm8JqXg

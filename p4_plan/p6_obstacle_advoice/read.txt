@@ -1,0 +1,41 @@
+#--- obstacle avoidance
+
+--- cost map
+
+-- layerd costmap
+
+--- nav2 coist map 2d
+
+--- static layerd
+
+--- obstacle layerd
+
+
+--- inflation layerd
+
+
+--- using costmap
+
+--- disjkatra cost map planner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

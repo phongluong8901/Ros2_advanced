@@ -1,0 +1,58 @@
+--- robot kinemetic
+
+--- pose of a robot arm
+
+--- transalation vector
+
+--- elementary rotation
+
+--- rotation matrix
+
+--- transfomation matrix
+
+--- forwad kinemetics
+
+--- Tf2 library
+
+--- ros2 services
+
+--- static and dynamic transfomation
+
+--- service client
+
+--- angle representation
+
+--- euler angle
+
+--- quaternion
+
+--- ivenser kinemetic
+
+-- movelt 2
+
+--- configure movelt 2
+
+--- launch movelt 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

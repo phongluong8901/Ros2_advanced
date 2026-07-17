@@ -1,0 +1,60 @@
+Here, you will find all the code that we are going to develop during the course, and here I’ll fix all the bugs that you will kindly report to me (and where I’ll add some new ones 🙂)
+
+Github
+https://github.com/AntoBrandi/Self-Driving-and-ROS-2-Learn-by-Doing-Plan-Navigation
+
+
+Here you will find the CAD and STL models of the robot components:
+
+STL of the Robot
+https://drive.google.com/drive/folders/153QTYRccQ-XBwqGvt222Ur5ssMjp__Ps?usp=drive_link
+
+CAD of the Robot
+https://drive.google.com/drive/folders/1-svIiIXIq-p-tEecLQgGqr9X5uNqM0sU
+
+
+Here you can find the STL files to feed your 3D Printer 🖨️
+
+STL 3D Printer
+https://drive.google.com/drive/folders/1aRFsjoXUAH-ZudlRnprNI3Pwkbrb11OP
+
+
+Here you will find the PDF with the slides of the lessons that you can use during the quiz😈:
+
+Lesson's Slides
+https://drive.google.com/drive/folders/1Ac334C9GRzpmB9dQyl0CDKbpv_og1yDF
+
+
+Here you will find the list of components needed to assemble the robot, the sensors, and the electronic parts. I added some like where you can buy the components (I’m not affiliated with these stores, so I’m not earning anything from these purchases 😔 then buy from the store you prefer)
+
+BOM to build the Robot
+https://docs.google.com/spreadsheets/d/1ZjQArpmpuA3CByzffksmD_ys4ZTuLZcrd2aIfF4JQNU/edit?gid=0#gid=0
+
+Electronics and Schematic
+https://drive.google.com/drive/folders/1QxgiFhFYE_ojzDlrHaYzS8sePpEcWb2R
+
+
+Nội dung khóa học
+Phát
+1. Course Motivation
+3 phút
+Phát
+2. The Self-Driving Program
+8 phút
+Phát
+3. Course Presentation
+3 phút
+Phát
+4. Meet your Teacher
+3 phút
+Bắt đầu
+5. [EXTRA]: Boost your Robotics Software Developer Career
+2 phút
+Phát
+6. Get the Most out of the Course
+4 phút
+Bắt đầu
+7. Course Material
+1 phút
+cảnh báo thông tin
+Lên lịch thời gian học

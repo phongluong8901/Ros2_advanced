@@ -1,0 +1,50 @@
+#--- planning and excution
+
+--- motion planners
+
+--- path tracking
+
+
+--- PID control
+
+--- PID Tuning
+
+--- PD motion planner
+
+--- robot localization
+
+--- robot convention for localization
+
+
+--- why convention for localozation
+
+--- pose of a mobile robot
+
+--- translation vector
+
+--- rotation matrix
+
+--- transformation matrix
+
+--- transformation  reference frames
+
+--- transform coordinate in PD motion
+--- control alforithm
+
+--- dynamic window approach (DWB)
+
+--- vector field histogram - VFH
+
+--- model predictive control = MPC
+
+--- Pure pursuit RPP
+
+---
+
+
+
+
+
+
+
+

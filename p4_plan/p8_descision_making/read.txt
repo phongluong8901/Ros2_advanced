@@ -1,0 +1,44 @@
+#--- behavior trees
+https://arxiv.org/pdf/1709.00084
+
+--- behavior tree nodes
+
+--- how tick works
+https://www.behaviortree.dev/docs/learn-the-basics/BT_basics/#how-tick-works
+
+--- blackboard and ports
+https://www.behaviortree.dev/docs/learn-the-basics/main_concepts/
+
+--- Nav2 BT navigator
+
+--- create a behavior
+https://www.behaviortree.dev/groot/
+--- improve planner and controller
+https://github.com/ros-navigation/navigation2/tree/main/nav2_smac_planner
+https://github.com/ros-navigation/navigation2/tree/main/nav2_regulated_pure_pursuit_controller
+https://docs.nav2.org/configuration/packages/smac/configuring-smac-2d.html
+https://docs.nav2.org/configuration/packages/configuring-regulated-pp.html
+
+--- navigator to pose with replaning
+https://docs.nav2.org/configuration/packages/bt-plugins/controls/PipelineSequence.html
+https://docs.nav2.org/configuration/packages/bt-plugins/decorators/RateController.html
+https://docs.nav2.org/configuration/packages/configuring-bt-xml.html
+
+--- nav2 behavior
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
